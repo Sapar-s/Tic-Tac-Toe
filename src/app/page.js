@@ -1,4 +1,3 @@
-// import { Board } from "@/components/Board";
 import Board from "./tictac/page";
 import Status from "@/components/Status";
 import Timer from "@/components/Time";
@@ -9,7 +8,6 @@ export default function Home() {
     <>
       <div className="flex items-center justify-center w-[100vw] h-[100vh]">
         <HomePage />
-        {/* <Board /> */}
       </div>
     </>
   );
